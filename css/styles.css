@@ -1,0 +1,189 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+h3 {
+  /* font-family: Montserrat; */
+  font-weight: bold;
+}
+
+p {
+  color: #8F8F8F;
+  font-size: 1.1rem;
+  padding-bottom: 10px;
+}
+
+em {
+  color: #fff;
+  margin: 100px auto;
+}
+
+.h2_orange {
+  color: #FFA931;
+}
+
+
+
+#title {
+  background-color: #FFA931;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px 0 0;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Buttons - Download */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image and icons*/
+.title-image {
+  width: 35%;
+  transform: rotate(20deg);
+  border-radius: 20%;
+  position: relative;
+  left: 40%;
+}
+
+/* FEATURES SECTION */
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #FECB89;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FFA931;
+}
+
+/* testimonial */
+#education {
+  background-color: #FECB89;
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.testimonials-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonials-image2 {
+  width: 45%;
+  border-radius: 100%
+}
+
+/* press */
+#press {
+  background-color: #FECB89;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 20%;
+  margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+  padding: 5% 20%;
+}
+
+/* work-expierence */
+#work-expierence {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+
+  .card-img-top {
+    width: 50%;
+  }
+.carousel-item {
+  margin-bottom: 20px;
+}
+}
+
+#cta {
+  background-color: #FECB89;
+  padding: 2% 15%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #FFA931;
+  text-align: center;
+}  
+
+.last_link:hover {
+  color: #FFA931;
+}
+
+.goup:hover {
+  color: green;
+}
